@@ -1,0 +1,32 @@
+{
+  "name": "Conference",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "presenter": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "face": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "id": true
+    },
+    "time": {
+      "type": "date",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

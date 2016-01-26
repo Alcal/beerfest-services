@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Stand": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Brew": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Brewery": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Restaurant": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Conference": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "BeerFestUser": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Stage": {
+    "dataSource": "db",
+    "public": true
+  }
+}

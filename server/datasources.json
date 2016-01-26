@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoBeerFest": {
+    "url": "mongodb://loopback:riviera2016@ds051595.mongolab.com:51595/ensenadabeerfest",
+    "password": "riviera2016",
+    "name": "mongoBeerFest",
+    "user": "loopback",
+    "connector": "mongodb"
+  }
+}
