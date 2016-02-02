@@ -22,6 +22,22 @@
     "logo": {
       "type": "string",
       "required": false
+    },
+    "email": {
+      "type": "string",
+      "id": true
+    },
+    "owner": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "region": {
+      "type": "string"
     }
   },
   "validations": [],
