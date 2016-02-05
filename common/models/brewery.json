@@ -23,10 +23,6 @@
       "type": "string",
       "required": false
     },
-    "email": {
-      "type": "string",
-      "id": true
-    },
     "owner": {
       "type": "string"
     },
@@ -38,6 +34,11 @@
     },
     "region": {
       "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "id": false,
+      "index": true
     }
   },
   "validations": [],

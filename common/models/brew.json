@@ -20,6 +20,19 @@
     "type": {
       "type": "string",
       "required": true
+    },
+    "srm": {
+      "type": "string",
+      "required": true
+    },
+    "ibu": {
+      "type": "number"
+    },
+    "winner": {
+      "type": "boolean"
+    },
+    "participant": {
+      "type": "boolean"
     }
   },
   "validations": [],
