@@ -1,6 +1,6 @@
 {
-  "name": "Stage",
-  "base": "PersistedModel",
+  "name": "Performance",
+  "base": "",
   "strict": false,
   "idInjection": false,
   "options": {
@@ -10,14 +10,8 @@
     "name": {
       "type": "string"
     },
-    "performances": {
-      "type": [
-        "Performance"
-      ]
-    },
-    "standId": {
-      "type": "string",
-      "comments": ""
+    "startTime": {
+      "type": "string"
     }
   },
   "validations": [],

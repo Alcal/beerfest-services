@@ -69,7 +69,15 @@
     "$resolved": true
   },
   "Stage": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Performance": {
+    "dataSource": "mongoBeerFest",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
